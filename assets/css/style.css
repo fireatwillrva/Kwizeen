@@ -1,0 +1,175 @@
+@font-face {
+    font-family: "BebasNeue";
+    src:url("../fonts/BebasNeue.ttf");
+    src:url("../fonts/BebasNeue.otf")
+}
+
+/* Splash styling */
+
+.jumbotron {
+    margin-top: 10%;
+    text-align: center;
+    background:rgb(0,0,0);  
+    background: transparent;  
+    background:rgba(92, 200, 92, 0.7);  
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=rgb(92,184,92),endColorstr=rgb(92,184,92));  
+    zoom: 1;  
+    }    
+    .jumbotron:nth-child(n) {  
+        filter: none;  
+    }
+li {
+    color: white;
+}
+#indexSearch {
+    margin-left: 40%;
+}
+#video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -100;
+    filter: blur(7px)
+}
+
+img {
+    border-radius: 9px;
+}
+
+/* Dynamically generated content styling */
+
+.recipeDiv {
+    position: relative;
+    left: 39%;
+}
+
+a.recipeLink {
+    font-family: "BebasNeue";
+    color: white;
+    text-shadow: 1px 1px black;
+    background-color: darkgray;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    position: relative;
+    bottom: 298px;
+    right: 5px;
+    font-size: 150%;
+}
+
+.btn-secondary {
+    font-family: "BebasNeue";
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    position: relative;
+    bottom: 74px;
+    text-shadow: 1px 1px black;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1024px) and (min-width: 0px) {
+    .jumbotron {
+        max-width: 100%;
+    }
+    #logo {
+            max-width: 85%;
+        }
+    #indexSearch {
+        max-width: 50%;
+    }
+    #video {
+        max-height: 100%;
+    }
+}
+
+@media only screen and (max-width: 980px) and (min-width: 0px) {
+    .recipeDiv {
+        position: relative;
+        left: 35%;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 0px) {
+    .recipeDiv {
+        position: relative;
+        left: 25%;
+    }
+ }
+
+@media only screen and (max-width: 640px) and (min-width: 0px) {
+}
+
+@media only screen and (max-width: 414px) and (min-width: 0px) {
+    .recipeDiv { 
+        position: relative;
+        left: 11%;
+    }
+}
+
+@media only screen and (max-width: 411px) and (min-width: 0px) {
+    .recipeDiv {
+        position: relative;
+        left: 12%;
+    }
+}
+
+@media only screen and (max-width: 375px) and (min-width: 0px) {
+    a.recipeLink {
+        position: relative;
+        bottom: 298px;
+    }
+    img.recipeImage{
+        max-width: 60%;
+        position: relative;
+        left: 18%;
+    }
+    .btn-secondary{
+        position: relative;
+        bottom: 74px;
+        left: 18%;
+    }
+}
+
+@media only screen and (max-width: 360px) and (min-width: 0px) {
+    .recipeDiv {
+        position: relative;
+        left: 5%;
+    }
+    img.recipeImg {
+        position: relative;
+        left: 5%;
+        max-width: 75%;
+    }
+    a.recipeLink {
+        position: relative;
+        bottom: 268px;
+        left: 3.5%;
+    }
+}
+
+@media only screen and (max-width: 320px) and (min-width: 0px) {
+    .recipeDiv {
+        position: relative;
+        left: 5%;
+    }
+    img.recipeImg {
+        max-width: 60%;
+        position: relative;
+        left: 12%;
+    }
+    a.recipeLink {
+        position: relative;
+        bottom: 190px;
+        left: 33px;
+        font-size: 150%;
+    }
+    .btn-secondary{
+        position: relative;
+        bottom: 74px;
+        left: 38px;
+    }
+}
