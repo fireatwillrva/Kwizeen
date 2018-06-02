@@ -16,5 +16,5 @@ With Kwizeen, you can sift through tons of recipes, save your favorites and find
 
 * **Will Fisher** - *UI & UX Design*
 * **Luke Myers** - *Front-End Javascript, API's, js.pdf & Firebase*
-* **Luis Boehling** - *Firebase & API's*
+* **Louis Boehling** - *Firebase & API's*
 * **Cecilia Medina** - *API's*
